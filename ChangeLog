@@ -1,3 +1,9 @@
+2018-09-03  Fabien Le Floc'h  <fabien@2ipi.com>
+        * DESCRIPTION (Version): New version is 1.6-1
+    
+        * src/solve.QP.compact.f, src/solve.QP.f : Changed temp variable 
+        calculation to avoid NaNs related to double underflow.
+
 2013-04-17  Berwin A Turlach  <Berwin.Turlach@gmail.com>
 
 	* DESCRIPTION (Version): New versin is 1.5-5
